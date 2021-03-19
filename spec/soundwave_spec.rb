@@ -31,7 +31,7 @@ describe 'soundwave' do
             expect(band_pass_filter([20,50,1050],40,900)).to eq([40,50,900])
         end
     end
-    context 'If no soundwave produces any sound and is empty' do
+    context 'If no soundwave produces any sound and array is empty' do
         it 'should raise an error saying "No input supplied"' do
             expect{ band_pass_filter([],40,1000) }.to raise_error('No input supplied')
         end
