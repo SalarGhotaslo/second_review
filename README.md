@@ -12,6 +12,7 @@ Write a band pass filter
 - Each integer represents a single frequency with the soundwave
 - If the frequency in the soundwave is below the lower threshold then the soundwave change to match this value
 - If the frequency in the soundwave is above the higher threshold then the soundwave change to match this value
+- Client would like a default of an lower limit of 40 and an upper limit of 1000
 
 ## Example from the client
 
