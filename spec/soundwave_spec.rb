@@ -21,13 +21,13 @@ describe 'soundwave' do
         expect(band_pass_filter([30,50,900,1050])).to eq([40,50,900,1000])
         end
     end
-    context 'If we are given a different band pass filter threshold, changing the lower limit' do
-        it 'use the lower threshold value assigned' do
+    context 'If we are given a different band pass filter threshold - changing the lower limit' do
+        it 'should use the lower threshold value assigned' do
             expect(band_pass_filter([20,50,1050],30,1000)).to eq([30,50,1000])
         end
     end
-    context 'If we are given a different band pass filter threshold, changing the upper limit' do
-        it 'use the upper threshold value assigned' do
+    context 'If we are given a different band pass filter threshold - changing the upper limit' do
+        it 'should use the upper threshold value assigned' do
             expect(band_pass_filter([20,50,1050],40,900)).to eq([40,50,900])
         end
     end
