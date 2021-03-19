@@ -1,10 +1,10 @@
-def band_pass_filter(soundwave)
+def band_pass_filter(soundwave,lower_threshold = 40, upper_threshold = 1000)
     new_soundwave = []
     soundwave.each do |freq|
-    if freq < 40
-        new_soundwave << 40
-        elsif freq > 1000
-        new_soundwave << 1000
+    if freq < lower_threshold
+        new_soundwave << lower_threshold
+        elsif freq > upper_threshold
+        new_soundwave << upper_threshold
         else
         new_soundwave << freq
         end
