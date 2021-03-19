@@ -1,4 +1,5 @@
 def band_pass_filter(soundwave,lower_threshold = 40, upper_threshold = 1000)
+    raise 'No input supplied' if soundwave == []
     new_soundwave = []
     soundwave.each do |freq|
     if freq < lower_threshold
