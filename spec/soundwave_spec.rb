@@ -16,4 +16,9 @@ describe 'soundwave' do
             expect(band_pass_filter([1050])).to eq([1000])
         end
     end
+    context 'If there are multiple frequencies within the soundwave' do
+        it 'should make all the frequencies in the soundwave meet the criteria of the thresholds' do
+        expect(band_pass_filter([30,50,900,1050])).to eq([40,50,900,1000])
+        end
+    end
 end
