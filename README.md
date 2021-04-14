@@ -1,8 +1,11 @@
+##Review
+
+## Description
+This was a one hour review to do a skills assesment on Ruby. The reviewer would propose a question and give me an hour to try and solve this porblem. I was allowed to use the internet to help solve the issue should I require it
+
 ## Company - Digital audio
 
-Musician writing electronic music need there soundtrack sounds
-Using music filters to change the audio
-Write a band pass filter
+Musician writing electronic music need there soundtrack changed, using a music filter to change the audio. Create a band pass filter.
 
 ## Band pass filter
 
