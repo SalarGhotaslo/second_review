@@ -14,7 +14,7 @@ Write a band pass filter
 - If the frequency in the soundwave is above the higher threshold then the soundwave change to match this value
 - Client would like a default of an lower limit of 40 and an upper limit of 1000
 
-## Example from the client
+## Example from the client
 
 - [10, 20, 30, 40, 50, 60], 25, 45 => [25, 25, 30, 40, 45, 45]
 
